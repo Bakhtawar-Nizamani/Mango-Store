@@ -1,0 +1,320 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: rgb(255, 254, 250);
+}
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid lightgray;
+}
+
+.nav-item:hover {
+    border-bottom: 3px solid green;
+}
+
+/* Carousel */
+.carousel-item img {
+    max-height: 88vh;
+}
+
+/* About Us */
+.about-us {
+    margin: 80px 50px 40px 50px;
+}
+
+.about-us h2 {
+    text-align: center;
+    margin: 50px
+}
+
+.about-section {
+    display: flex;
+}
+
+.about-section img {
+   width: 50vw;
+    height:65vh;  
+    border-radius: 20px;
+    margin: 0px 80px;
+}
+
+.about-section img:hover {
+    box-shadow: 3px 3px 10px rgb(1, 148, 41);
+}
+
+.about-section p {
+    padding: 30px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+/* Products */
+.products-boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-heading h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+.card .price {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.card .sale-price {
+    color: red;
+    padding-left: 5px;
+}
+
+/* Testimonials */
+.testimonials {
+    margin-top: 80px;
+}
+
+.testimonials .testimonials-heading {
+    margin-bottom: 65px;
+}
+
+/* Footer */
+footer {
+    height: 380px;
+    background-color: green;
+    padding: 80px;
+    color: rgb(211, 255, 212);
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.div-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer h3 {
+    font-weight: 700;
+}
+
+.section1 h3 span {
+    color: rgb(219, 219, 1);
+}
+
+.section1 .social-icons {
+    margin-top: 30px;
+}
+
+.section2 ul {
+    margin-top: 25px;
+}
+
+.section2 ul li {
+    list-style: none;
+    font-size: 15px;
+    cursor: pointer;
+    line-height: 1.6;
+}
+
+.section2 ul a {
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+}
+
+.section3 ul {
+    margin-top: 25px;
+}
+
+.section3 ul li {
+    list-style: none;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+footer p {
+    margin-top: 40px;
+    font-size: 13px;
+    text-align: center;
+}
+
+/* About Us */
+.about-us-page h2 {
+    margin: 50px 50px 0px 50px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contents {
+    padding: 80px;
+}
+
+.contents .content {
+    display: flex;
+    margin: 100px 0;
+
+}
+
+.contents .content img {
+    width: 50vw;
+    height: 350px;
+    border-radius: 20px;
+
+}
+
+.contents .content img:hover {
+    box-shadow: 3px 3px 10px rgb(1, 148, 41);
+}
+
+.contents .content p {
+
+    line-height: 30px;
+    letter-spacing: 1px;
+
+}
+
+/* Testimonials */
+.testimonials .top-content {
+    margin: 50px 50px 80px 50px;
+}
+
+.testimonials .top-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.testimonials .top-content p {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.reviews .review {
+    width: 25vw;
+    height: 73vh;
+    background-color: rgb(247, 247, 247);
+    margin-bottom: 20px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px green;
+    padding: 60px 30px 30px 30px;
+
+}
+
+.reviews .review img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    left: 120px;
+
+}
+
+.reviews .review .quote-icon {
+    font-size: 25px;
+    color: green;
+}
+
+/* Blogs */
+.blogs .top-content {
+    margin: 50px 50px 80px 50px;
+}
+
+.blogs .top-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.blogs .top-content p {
+    margin-top: 30px;
+    line-height: 1.6;
+}
+
+.article {
+    width: 70vw;
+    height: 100vh;
+    border: 2px solid lightgray;
+    margin: 0 auto;
+    border-radius: 4px;
+    margin-bottom: 100px;
+}
+
+.article:hover {
+    box-shadow: 3px 3px 8px gray;
+}
+
+.blogs img {
+    width: 100%;
+    height: 46vh;
+}
+
+.blogs .article-heading {
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.blogs .article-headline {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 5px;
+}
+
+.blogs .article-content {
+    padding: 20px;
+}
+
+
+/* Contact Us */
+.contact-us-content {
+    margin: 50px 50px 80px 50px;
+}
+
+.contact-us-content h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.contact-us-content p {
+    margin-top: 30px;
+}
+
+.contact-form {
+    margin-left: 150px;
+    width: 40vw;
+}
+
+form h3 {
+    margin-bottom: 45px;
+}
+
+form input:hover {
+    box-shadow: 2px 2px 6px green;
+}
+
+.form-control:focus {
+    border-color: green !important;
+    box-shadow: 0 0 0 0.25rem rgba(0, 128, 0, 0.25) !important;
+}
+
+.message {
+    display: flex;
+    margin-top: 10px;
+}
+
+.message label {
+    margin-right: 5px;
+    align-self: center;
+}
+
+.btn-reset {
+    border: 1px solid black !important;
+}
+
+
