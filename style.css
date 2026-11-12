@@ -1,13 +1,16 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
 }
 
+html,
 body {
+    width: 100%;
     font-family: "Montserrat", sans-serif;
     background-color: rgb(255, 254, 250);
 }
+
 
 /* Navbar */
 .navbar {
@@ -38,8 +41,8 @@ body {
 }
 
 .about-section img {
-   width: 50vw;
-    height:65vh;  
+    width: 50vw;
+    height: 65vh;
     border-radius: 20px;
     margin: 0px 80px;
 }
@@ -158,14 +161,12 @@ footer p {
 .contents .content {
     display: flex;
     margin: 100px 0;
-
 }
 
 .contents .content img {
     width: 50vw;
     height: 350px;
     border-radius: 20px;
-
 }
 
 .contents .content img:hover {
@@ -173,7 +174,6 @@ footer p {
 }
 
 .contents .content p {
-
     line-height: 30px;
     letter-spacing: 1px;
 
@@ -203,7 +203,6 @@ footer p {
     border-radius: 10px;
     box-shadow: 2px 2px 4px green;
     padding: 60px 30px 30px 30px;
-
 }
 
 .reviews .review img {
@@ -213,7 +212,6 @@ footer p {
     position: absolute;
     top: -15px;
     left: 120px;
-
 }
 
 .reviews .review .quote-icon {
@@ -257,7 +255,6 @@ footer p {
 .blogs .article-heading {
     font-size: 28px;
     font-weight: 700;
-
 }
 
 .blogs .article-headline {
@@ -316,5 +313,6 @@ form input:hover {
 .btn-reset {
     border: 1px solid black !important;
 }
+
 
 
