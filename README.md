@@ -63,8 +63,8 @@ Mango-Store/
 ├── products.html
 ├── responsive.css
 ├── style.css
-├── testimonials.html```
-
+├── testimonials.html
+```
 
 
 ## Getting Started
