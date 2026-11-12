@@ -52,6 +52,7 @@ Sindhri · Chaunsa · Anwar Ratol · Langra · Neelum · Dussehri · Saroli · A
 
 # Project Structure
 
+```
 Mango-Store/
 ├── Img/
 ├── README.md
@@ -62,7 +63,7 @@ Mango-Store/
 ├── products.html
 ├── responsive.css
 ├── style.css
-├── testimonials.html
+├── testimonials.html```
 
 
 
