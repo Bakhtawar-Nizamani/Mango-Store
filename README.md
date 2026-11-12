@@ -75,7 +75,7 @@ Mango-Store/
    ```
 2. Open the project folder
    ```bash
-   cd Mango store
+   cd Mango-Store
    ```
 3. Open `index.html` in your browser. No build step required.
 
