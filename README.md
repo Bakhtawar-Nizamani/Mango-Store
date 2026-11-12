@@ -1,101 +1,100 @@
+
 # Tando Mango Website
 
-A modern, multi-page mango-selling website built using **HTML, CSS, and Bootstrap**.  
-This project is designed to showcase different mango varieties with a clean UI, reusable components, and a structured multi-page layout.
+A modern, fully responsive multi-page website for a mango-selling brand from Sindh, Pakistan. Built with **HTML5, CSS3, and Bootstrap 5** to showcase premium mango varieties with a clean, mobile-friendly UI.
 
 
-# Project Overview
+##  Overview
 
-Tando Mango is a frontend practice project that simulates a real-world e-commerce landing website.  
-It now includes multiple pages like **Home,About, Products, Testimonials, Blog, and Contact Us**, built using a combination of HTML, CSS, and Bootstrap. Some sections use Bootstrap components for layout and structure, while others are styled with custom CSS for a more personalized design.
+Tando Mango is a frontend portfolio project that simulates a real-world e-commerce landing website. It combines **Bootstrap components** for layout and structure with **custom CSS** for a more personalized look and feel.
 
+**Live Demo:** https://bakhtawar-nizamani.github.io/Mango-Store/
 
-# Features
+## Features
 
 - Multi-page website structure
-- Modern responsive navbar (Bootstrap)
-- Hero section with banner design
-- About Us page with content layout
-- Product section using Bootstrap cards
-- Testimonials section
+- Responsive navbar built with Bootstrap
+- Hero section with carousel banner
+- About Us page with alternating image/text layout
+- Product cards using Bootstrap grid
+- Customer testimonials section
 - Blog page layout
-- Contact Us form
-- Icons integration for better UI (Font Awesome)
-- Hover effects and smooth UI interactions
-- Clean and structured component-based design
+- Contact form with inquiry type selection
+- Font Awesome icons throughout the UI
+- Hover effects and smooth interactions
+- Mobile-friendly layout using media queries
 
 
-# Technologies Used
+##  Pages
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Google Fonts (Montserrat)
-- Font Awesome
-
-
-# Pages Included
-
-- Home
-- About Us
-- Products
-- Testimonials
-- Blog
-- Contact Us
+| Page | File |
+|------|------|
+| Home | `index.html` |
+| About Us | `about.html` |
+| Products | `products.html` |
+| Testimonials | `testimonials.html` |
+| Blogs | `blogs.html` |
+| Contact Us | `contact.html` |
 
 
-# Mango Varieties Featured
+## Mango Varieties Featured
 
-- Sindhri Mango  
-- Chaunsa Mango  
-- Anwar Ratol  
-- Langra Mango  
-- Neelum Mango  
-- Dussehri Mango  
-- Saroli Mango  
-- Almas Mango  
-- Sufaid Chaunsa  
+Sindhri · Chaunsa · Anwar Ratol · Langra · Neelum · Dussehri · Saroli · Almas · Sufaid Chaunsa
 
 
-# UI / Design Improvements
+## Technologies Used
 
-- Bootstrap navbar and grid system used
-- Card-based product layout using Bootstrap classes
-- Better spacing and alignment using utility classes
-- Consistent typography and color theme
-- Icon-based UI for modern look
-- Improved section structuring for scalability
+- **HTML5**
+- **CSS3** (custom styles + media queries)
+- **Bootstrap 5**
+- **Google Fonts** (Montserrat)
+- **Font Awesome**
+
+# Project Structure
+
+Mango-Store/
+├── Img/
+├── README.md
+├── about.html
+├── blogs.html
+├── contact.html
+├── index.html
+├── products.html
+├── responsive.css
+├── style.css
+├── testimonials.html
 
 
 
-# Future Improvements
+## Getting Started
 
-- Fully responsive design (mobile-first)
-- JavaScript functionality (form validation, interactivity)
-- Add shopping cart system
-- Improve animations and transitions
-- SEO optimization
-- Performance improvements
+1. Clone the repository
+   ```bash
+   https://bakhtawar-nizamani.github.io/Mango-Store/
+   ```
+2. Open the project folder
+   ```bash
+   cd Mango store
+   ```
+3. Open `index.html` in your browser. No build step required.
 
-# What I Learned
 
-While building this project, I practiced:
 
-- Multi-page website structure
+## What I Learned
+
+- Structuring a multi-page website
 - Bootstrap layout system (container, row, col)
-- Component-based UI design
-- Card layouts and navbar customization
-- Better folder and project structuring
-- Real-world website thinking
+- Building reusable, component-based UI sections
+- Customizing cards, navbar, and forms
+- Writing responsive layouts with media queries
+- Organizing files and folders for a real-world project
 
 
-# Author
+## Author
 
-Built by **Bakhtawar Nizamani** 
-Frontend practice project for learning and portfolio building.
+**Bakhtawar Nizamani**
 
 
-# Note
+##  Note
 
-This is a frontend development practice project created to improve my skills in **HTML, CSS, and Bootstrap**.  
-Next step: I will make this website fully **responsive and mobile-friendly**.
+This is a frontend practice project created to improve my skills in **HTML, CSS, and Bootstrap**.
